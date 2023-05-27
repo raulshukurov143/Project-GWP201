@@ -1,0 +1,47 @@
+header{
+    background-color: burlywood;
+   nav{
+    .fa-bars{
+        display: none;
+
+    }
+    .ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        li{
+            a{
+                text-decoration: none;
+                color: black;
+                border: 1px solid transparent;
+                border-radius: 5px;
+                padding: 5px 20px;
+                &:hover{
+                    border-color: crimson;
+                    color: crimson;
+
+                }
+            }
+        }
+    }
+    @media only screen and (max-width:767px){
+     
+         h1{
+             color: white;
+         }
+         .ul{
+             display: none;
+         }
+         .fa-bars{   
+             color: white;
+             display: block;
+         }
+     }
+ 
+    }
+    @media only screen and (max-width:577px){
+        background-color: black;
+
+    }
+   }

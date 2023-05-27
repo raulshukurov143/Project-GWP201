@@ -1,0 +1,25 @@
+{
+  "gym": [
+    {
+      "id": 1,
+      "img": "../img/o1.png",
+      "name": "Regular Exercise",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+      "price": 1234
+    },
+    {
+      "id": 2,
+      "img": "../img/o2.png",
+      "name": "Training on the go",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+      "price": 1232
+    },
+    {
+      "id": 3,
+      "img": "../img/o3.png",
+      "name": "Body Building Packages",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+      "price": 1239
+    }
+  ]
+}

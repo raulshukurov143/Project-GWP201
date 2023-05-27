@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": 3,
+      "firstname": "Chef",
+      "lastname": "Skinner",
+      "email": "chef@gmail.com"
+    },
+    {
+      "id": 4,
+      "firstname": "Gusteau",
+      "lastname": "Auguste",
+      "email": "gusteau@gmail.com"
+    },
+    {
+      "firstname": "Ahad",
+      "lastname": "Hajiyev",
+      "email": "ahad@hj.com",
+      "id": 6
+    },
+    {
+      "photo": "./img/Igo.png",
+      "firstname": "Ego",
+      "lastname": "Anton",
+      "email": "ego@gmail.com",
+      "id": 7
+    }
+  ]
+}

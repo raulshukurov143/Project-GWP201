@@ -1,0 +1,20 @@
+#about{
+    padding: 100px;
+  .card{
+    padding: 30px;
+    img{
+        width: 50px;
+        position: relative;
+        left: 150px;
+    }
+    i{
+        &:hover{
+            background-color: transparent;
+            border-color: orange;
+            color: black;
+
+        }
+
+    }
+  }
+}

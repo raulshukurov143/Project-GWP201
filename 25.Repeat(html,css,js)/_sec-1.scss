@@ -1,0 +1,12 @@
+.sec-1{
+    
+     height: 100vh;
+   
+    background-image: url(./bg1-png);
+    background-repeat: no-repeat;
+    @media only screen and (max-width:577px){
+        background-image: url(./bg2.png);
+
+    }
+   
+}
