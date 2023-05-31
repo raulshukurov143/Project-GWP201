@@ -1,0 +1,47 @@
+header{
+    width: 100vw;
+    position: fixed;
+    background-color: blue;
+    opacity: 0.3;
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        ul{
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            i{
+                display: none;
+            }
+            
+            li{
+                a{
+                    text-decoration: none;
+                    color: white;
+                    font-size: 12px;
+
+                }
+                .dropdown{
+                    button{
+                        font-size: 12px;
+                        background-color: transparent;
+                        color: black;
+                        border: 1px solid transparent;
+                        color: white;
+                    }
+
+                }
+            }
+        }
+        @media only screen and (max-width:991px){
+            ul{
+                display: none;
+            }
+            i{
+                display: flex;
+            }
+
+        }
+    }
+}

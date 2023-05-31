@@ -1,0 +1,42 @@
+.robotics{
+    padding: 100PX;
+    // height: 100vh;
+    background-image: url(../img/banner-bg.jpg);
+    @media only screen and (max-width:991px){
+        img{
+            width: 300px;
+        }
+    }
+    @media only screen and (max-width:767px){
+        img{
+            width: 200px;
+        }
+    }
+  #banner-row{
+      #content{
+        position: relative;
+        margin-top: 100px;
+        h1{
+            color: white;
+        }
+        p{
+            color: white;
+        }
+        button{
+            padding: 10px 30px;
+            border: 1px solid transparent;
+            &:hover{
+                background-color: transparent;
+                color: white;
+                border-color: white;
+
+            }
+        }
+    }
+    #img-banner{
+        position: relative;
+        margin-top: 100px;
+       
+    }
+  }
+}

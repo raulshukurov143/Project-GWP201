@@ -1,0 +1,27 @@
+#slide{
+
+
+.content{
+    // position: relative;
+    top: 100px;
+    // margin-top: -400px;
+    h1{
+        color: white;
+    }
+    p{
+        color: white;
+    }
+    button{
+        color: white;
+        padding: 10px 30px;
+        background-color: transparent;
+        border: 1px solid orangered;
+        
+
+        &:hover{
+            background-color: orangered;
+        }
+    }
+}
+
+}

@@ -1,0 +1,35 @@
+{
+    "robots":[
+        {
+            "id":1,
+            "img":"./img/p1.png",
+            "name":"The Upper Eye",
+            "title":"Who are in extremely love with eco friendly system.",
+            "price":12345
+        },
+        {
+            "id":2,
+            "img":"./img/p2.png",
+            "name":"The Crab Wheel",
+            "title":"Who are in extremely love with eco friendly system.",
+            "price":12346
+
+        },
+        {
+            "id":3,
+            "img":"./img/p3.png",
+            "name":"The Plug Ninja",
+            "title":"Who are in extremely love with eco friendly system.",
+            "price":12347
+
+        },
+        {
+            "id":4,
+            "img":"./img/p4.png",
+            "name":"The Controller",
+            "title":"Who are in extremely love with eco friendly system.",
+            "price":12348
+
+        }
+    ]
+}

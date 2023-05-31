@@ -1,0 +1,29 @@
+#service{
+    padding: 100px;
+    background-image: url(../img/background2.jpg);
+    p{
+        color: rgb(48, 199, 116);
+    }
+    h2{
+        color: rgb(48, 199, 116);
+    }
+    img{
+        width: 100%;
+        height: 350px;
+        transition: all 1s linear 0.4s;
+        &:hover{
+            transform: rotateX(360deg);
+            position: relative;
+            // transform: scale(2);
+
+        }
+    }
+    .col-lg-4{
+        border: 1px solid transparent;
+        // background-color: white;
+        h1{
+        color: rgb(48, 199, 116);
+        
+        }
+    }
+}

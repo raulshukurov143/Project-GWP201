@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Open+Sans:wght@300&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./scss/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="headerTop">
+        <div class="container">
+          <nav class="d-flex justify-content-between align-items-center">
+            <ul class="mb-0 d-flex gap-3" id="firstUL">
+              <li>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+              </li>
+            </ul>
+            <div class="loginDiv">
+              <button class="sponsor">sponsor</button>
+              <button class="login">log in</button>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="headerBottom">
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+            <h1>ADOPTED</h1>
+            <nav>
+              <ul
+                class="mb-0 d-flex gap-3 justify-content-center align-items-center"
+              >
+                <li><a href="">Home</a></li>
+                <li>
+                  <div class="dropdown">
+                    <button
+                      class="btn dropdown-toggle"
+                      type="button"
+                      id="dropdownMenuButton1"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Adoption
+                    </button>
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="dropdownMenuButton1"
+                    >
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="">Success stories</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="./add.html">ADD</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="slide">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/slider-1.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <div class="container">
+                <div id="row" class="row">
+                  <div class="col col-6">
+                    <h1 class="firstContent">Celine Richardson , 14yrs.old</h1>
+                    <h1 class="content-2">NEEDS A CARING PARENTS</h1>
+                    <p class="firstP">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Distinctio ullam maxime omnis, expedita possimus quaerat
+                      quas quidem asperiores dolorum accusantium laboriosam ut
+                      hic optio magnam minus numquam id autem nostrum at?
+                      Officia!
+                    </p>
+                    <button class="btn btn-danger text-info">
+                      Adopt Her now!
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/slider-2.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <div class="row">
+                <div class="col col-6">
+                  <h1 class="firstContent">Mark rodruguez , 12 yrs.old</h1>
+                  <h1 class="content-2">NEEDS A CARING PARENTS</h1>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Distinctio ullam maxime omnis, expedita possimus quaerat
+                    quas quidem asperiores dolorum accusantium laboriosam ut hic
+                    optio magnam minus numquam id autem nostrum at? Officia!
+                  </p>
+                  <button class="btn btn-danger text-info">
+                    Adopt Him now!
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section id="adopt">
+      <div class="container">
+        <div class="row my-5">
+          <div class="col col-md-12 col-lg-6">
+            <img src="./img/img.png" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
+              nemo et, esse laudantium consequatur. Eum soluta illum architecto
+              dolorum quae suscipit dignissimos! Saepe, amet explicabo nemo
+              eligendi totam sint repudiandae.
+            </p>
+
+            <button class="adoptbtn">Adopt a child now</button>
+          </div>
+          <div class="col col-md-12 col-lg-6">
+            <h1>
+                Steps to adopt & foster a child</h1>
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                      gETTING sTARTED
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                      <P>
+                        Steps to adopt & foster a child
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid velit, asperiores libero. Beatae vitae nostrum et distinctio saepe autem quisquam cupiditate labore voluptatum, eligendi ipsam atque assumenda odit, perferendis dicta.</P>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                    Envisioning your family
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                      Getting approed
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+           
+          </div>
+           
+        </div>
+      </div>
+    </section>
+    <section id="Waiting-Children">
+        <div class="container">
+            <h1 class="text-center">WAITING CHILDREN</h1>
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
+          <div class="d-flex">
+            <input type="search" id="search" class="form-control" placeholder="Search ...">
+            <button id="sortBtn" class="btn btn-primary">ascending</button>
+          </div>
+            <div class="row my-5 mx-3" id="rowId">
+        <!-- <div class="col col-12 col-md-6 col-lg-4" id="cardId">
+            <div class="card" style="width: 18rem;">
+                <img src="./img/children_3.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex gap-3">
+                  <p class="card-text">Mark</p>
+                  <p class=>12 yrs.old</p>
+                </div>
+              </div>
+        </div> -->
+       </div>
+        </div>
+    </section>
+    <section id="featured">
+<div class="container">
+
+  <h1 class="text-center">FEATURED STORIES</h1>
+<div class="row my-5">
+  <div class="col col-md-12 col-lg-4"><img src="./img/work_thumb_1.jpg" alt=""></div>
+  <div class="col col-md-12 col-lg-4"><img src="./img/work_thumb_2.jpg" alt=""></div>
+  <div class="col col-md-12 col-lg-4"><img src="./img/work_thumb_3.jpg" alt=""></div>
+</div>
+</div>        
+    </section>
+    <footer id="endSec">
+      <div class="container">
+        <div class="row">
+          <div class="col mt-3 col-md-12 col-lg-3">
+            <h4>ABOUT</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus et dolor blanditiis consequuntur ex voluptates perspiciatis omnis unde minima expedita.</p>
+          <a href="">Learn More</a>
+          </div>
+          <div class="col mt-3 col-md-12 col-lg-3">
+            <h4>CONTACT & ADDRESS</h4>
+            <p>A:  34 Street Name, City Name Here, United States</p>
+            <p>T:  +1 242 4942 290</p>
+            <p>E:
+              info@yourdomain.com</p>
+
+          </div>
+          <div class="col mt-3 col-md-12 col-lg-3">
+            <h4>QUICK LINKS</h4>
+            <ul>
+              <li><a href="">About</a></li>
+              <li><a href="">Success Stories</a></li>
+              <li><a href="">Waiting children</a></li>
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">Terms of Use</a></li>
+              <li><a href="">Diclaimers</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </div>
+          <div id="Icon" class="col mt-3 col-md-12 col-lg-3">
+            <h4>SOCIAL</h4>
+            <ul class="d-flex gap-3">
+              <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <p class="text-center mt-5">Copyright ©2023 All rights reserved | This template is made with  by</p>
+      </div>
+
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js" integrity="sha512-uMtXmF28A2Ab/JJO2t/vYhlaa/3ahUOgj1Zf27M5rOo8/+fcTUVH0/E0ll68njmjrLqOBjXM3V9NiPFL5ywWPQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

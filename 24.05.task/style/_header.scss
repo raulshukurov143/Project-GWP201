@@ -1,0 +1,36 @@
+header{
+    // opacity: 0.5;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    
+    nav{
+        
+        .fa-bars{
+            display: none;
+
+        }
+        ul{
+            li{
+                a{
+                    text-decoration: none;
+                    color:white ;
+                    &:hover{
+                        color: red;
+                    }
+                }
+            }
+        }
+        @media only screen and (max-width:991px){
+            
+            ul{
+                display: none;
+            }
+            .fa-bars{
+                display: block;
+            }
+        }
+    }
+}

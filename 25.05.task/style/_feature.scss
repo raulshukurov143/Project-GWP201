@@ -1,0 +1,24 @@
+#feature{
+    padding: 100px;
+    background-image: url(../img/feature-bg.jpg);
+        a{
+            text-decoration: none;
+            .first-box{
+                border-radius: 20px;
+                padding: 20px;
+           background-color: white;
+           &:hover{
+            h1{
+                color: blue;
+            }
+           }
+        h1{
+            font-size: 20px;
+            color: black;
+        }
+        p{
+            color: black;
+        }
+       }
+    }
+}

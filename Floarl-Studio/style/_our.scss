@@ -1,0 +1,15 @@
+#our{
+    padding: 100px;
+    img{
+        width: 100px;
+        transition: all 1s linear 0.5s;
+        &:hover{
+            transform: scale(1.1);
+            
+
+        }
+    }
+    h1{
+        color: rgb(48, 199, 116);
+    }
+}

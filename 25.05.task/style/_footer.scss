@@ -1,0 +1,33 @@
+footer{
+    padding: 100px;
+    background-image: url(../img/footer-bg.jpg);
+    p{
+        color: white;
+        a{
+            color: white;
+        }
+    }
+    ul{
+        li{
+            a{
+                div{
+                    border: 1px solid black;
+                    padding: 10PX;
+                    background-color: BLACK;
+                    i{
+                        color: white;
+                        // margin: 20px;
+                    }
+                    &:hover{
+                        background-color: white;
+                        opacity: 0.1;
+                        i{
+                            color: black;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}

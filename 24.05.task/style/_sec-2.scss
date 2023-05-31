@@ -1,0 +1,47 @@
+#bizpro {
+    padding: 100px;
+
+  .card {
+    padding: 20px;
+    text-align: center;
+    .img {
+         padding: 70px;
+         border: 2px solid orangered;
+         border-radius: 50%;
+      img {
+       
+        width: 50px;
+        height: 50px;
+      }
+    }
+    .button{
+        padding: 10px 15px;
+        background-color: transparent;
+        border: 1px solid orange;
+    }
+    h2{
+        font-size: 24px;
+    }
+    &:hover{
+        .img{
+            background-color: orangered;
+        }
+        .btn-danger{
+            background-color: transparent;
+            color: red;
+        }
+        .btn-success{
+            background-color: transparent;
+            color: green;
+        }
+        .button{
+            background-color: orangered;
+        }
+        h2{
+            color: orangered;
+            border-color: white;
+        }
+
+    }
+  }
+}

@@ -1,0 +1,58 @@
+header {
+  .headerTop {
+    background-color: coral;
+    nav {
+      #firstUl {
+        li {
+          a {
+            color: black;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+      }
+      .loginDiv {
+        .sponsor {
+          padding: 5px 10px;
+          border: 1px solid transparent;
+          background-color: transparent;
+          &:hover {
+            color: white;
+          }
+        }
+        .login {
+          padding: 5px 10px;
+          border: 1px solid transparent;
+          background-color: gold;
+          &:hover {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  .headerBottom {
+    h1 {
+      font-family: "Open Sans", sans-serif;
+    }
+    nav {
+      ul {
+        li {
+          a {
+            font-family: "Open Sans", sans-serif;
+
+            text-decoration: none;
+            color: black;
+            &:hover{
+              color: blue   ;
+            }
+            .dropdown-toggle {
+              font-family: "Open Sans", sans-serif;
+            }
+          }
+        }
+      }
+    }
+  }
+}

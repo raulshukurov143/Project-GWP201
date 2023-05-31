@@ -1,0 +1,35 @@
+#endSec{
+    padding: 100px;
+    background-color: red;
+    h4{
+        color: white;
+    }
+    a{
+        text-decoration: none;
+        color:darkgoldenrod;
+        row-gap: 30px;
+        &:hover{
+            text-decoration: underline;
+            color: white;
+        }
+    }
+    p{
+        color: white;
+    }
+    #Icon{
+        a{
+            i{
+                color: darkgoldenrod;
+
+                border: 1px solid white;
+                border-radius: 100%;
+                padding: 10px;
+                &:hover{
+                    color: black;
+    
+                    background-color:white ;
+                }
+            }
+        }
+    }
+}

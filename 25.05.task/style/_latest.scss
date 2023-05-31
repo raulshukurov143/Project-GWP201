@@ -1,0 +1,31 @@
+#latest{
+    padding: 100px;
+    @media only screen and (max-width:991px){
+        img{
+            width: 300px;
+        }
+    }
+    @media only screen and (max-width:767px){
+        img{
+            width: 200px;
+        }
+    }
+    .latest-btn{
+        padding: 5px 15px;
+        border: 1px solid transparent;
+        background-color: rgb(104, 95, 138);
+        &:hover{
+            background-color: transparent;
+            border-color: rgb(104, 95, 138) ;
+            color:  rgb(104, 95, 138);
+        }
+    }
+    .latest-a{
+        text-decoration: none;
+        color: black;
+        font-size: 30px;
+        &:hover{
+            color: blue;
+        }
+    }
+}

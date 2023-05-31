@@ -1,0 +1,31 @@
+#dinamic{
+    padding: 100px;
+    .card{
+        padding: 30px;
+        img{
+            width: 100px;
+            height: 150px;
+            position: relative;
+            left: 40px;
+        }
+        button{
+            position: relative;
+            left: 25px;
+            padding: 10px 20px;
+            background-color: transparent;
+            border: 1px solid transparent;
+            &:hover{
+                background-image: url(../img/banner-bg.jpg);
+            }
+        }
+        .card-icon{
+          i{
+            font-size: 36px;
+            &:hover{
+                color: red;
+            }
+          }
+
+        }
+    }
+}

@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+header {
+  width: 100vw;
+  position: fixed;
+  background-color: blue;
+  opacity: 0.3;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+header nav ul i {
+  display: none;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+header nav ul li .dropdown button {
+  font-size: 12px;
+  background-color: transparent;
+  color: black;
+  border: 1px solid transparent;
+  color: white;
+}
+@media only screen and (max-width: 991px) {
+  header nav ul {
+    display: none;
+  }
+  header nav i {
+    display: flex;
+  }
+}
+
+.robotics {
+  padding: 100PX;
+  background-image: url(../img/banner-bg.jpg);
+}
+@media only screen and (max-width: 991px) {
+  .robotics img {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .robotics img {
+    width: 200px;
+  }
+}
+.robotics #banner-row #content {
+  position: relative;
+  margin-top: 100px;
+}
+.robotics #banner-row #content h1 {
+  color: white;
+}
+.robotics #banner-row #content p {
+  color: white;
+}
+.robotics #banner-row #content button {
+  padding: 10px 30px;
+  border: 1px solid transparent;
+}
+.robotics #banner-row #content button:hover {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+}
+.robotics #banner-row #img-banner {
+  position: relative;
+  margin-top: 100px;
+}
+
+#dinamic {
+  padding: 100px;
+}
+#dinamic .card {
+  padding: 30px;
+}
+#dinamic .card img {
+  width: 100px;
+  height: 150px;
+  position: relative;
+  left: 40px;
+}
+#dinamic .card button {
+  position: relative;
+  left: 25px;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+#dinamic .card button:hover {
+  background-image: url(../img/banner-bg.jpg);
+}
+#dinamic .card .card-icon i {
+  font-size: 36px;
+}
+#dinamic .card .card-icon i:hover {
+  color: red;
+}
+
+#feature {
+  padding: 100px;
+  background-image: url(../img/feature-bg.jpg);
+}
+#feature a {
+  text-decoration: none;
+}
+#feature a .first-box {
+  border-radius: 20px;
+  padding: 20px;
+  background-color: white;
+}
+#feature a .first-box:hover h1 {
+  color: blue;
+}
+#feature a .first-box h1 {
+  font-size: 20px;
+  color: black;
+}
+#feature a .first-box p {
+  color: black;
+}
+
+#latest {
+  padding: 100px;
+}
+@media only screen and (max-width: 991px) {
+  #latest img {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #latest img {
+    width: 200px;
+  }
+}
+#latest .latest-btn {
+  padding: 5px 15px;
+  border: 1px solid transparent;
+  background-color: rgb(104, 95, 138);
+}
+#latest .latest-btn:hover {
+  background-color: transparent;
+  border-color: rgb(104, 95, 138);
+  color: rgb(104, 95, 138);
+}
+#latest .latest-a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+#latest .latest-a:hover {
+  color: blue;
+}
+
+footer {
+  padding: 100px;
+  background-image: url(../img/footer-bg.jpg);
+}
+footer p {
+  color: white;
+}
+footer p a {
+  color: white;
+}
+footer ul li a div {
+  border: 1px solid black;
+  padding: 10PX;
+  background-color: BLACK;
+}
+footer ul li a div i {
+  color: white;
+}
+footer ul li a div:hover {
+  background-color: white;
+  opacity: 0.1;
+}
+footer ul li a div:hover i {
+  color: black;
+}/*# sourceMappingURL=main.css.map */

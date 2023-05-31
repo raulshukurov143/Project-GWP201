@@ -1,0 +1,26 @@
+#team {
+  // height: 100vh;
+  #allTeamImg {
+    #teamImg-1 {
+    
+      &:hover{
+       img{
+        opacity: 0.5;
+       }
+      }
+      img {
+        width: 100%;
+      }
+    }
+    #teamImg-2 {
+      img {
+        width: 100%;
+      }
+    }
+    #teamImg-3 {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+header .headerTop {
+  background-color: coral;
+}
+header .headerTop nav #firstUl li a {
+  color: black;
+}
+header .headerTop nav #firstUl li a:hover {
+  color: white;
+}
+header .headerTop nav .loginDiv .sponsor {
+  padding: 5px 10px;
+  border: 1px solid transparent;
+  background-color: transparent;
+}
+header .headerTop nav .loginDiv .sponsor:hover {
+  color: white;
+}
+header .headerTop nav .loginDiv .login {
+  padding: 5px 10px;
+  border: 1px solid transparent;
+  background-color: gold;
+}
+header .headerTop nav .loginDiv .login:hover {
+  color: white;
+}
+header .headerBottom h1 {
+  font-family: "Open Sans", sans-serif;
+}
+header .headerBottom nav ul li a {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  color: black;
+}
+header .headerBottom nav ul li a:hover {
+  color: blue;
+}
+header .headerBottom nav ul li a .dropdown-toggle {
+  font-family: "Open Sans", sans-serif;
+}
+
+.slide .carousel-caption {
+  top: 20% !important;
+}
+.slide #row .firstContent {
+  color: black;
+}
+.slide #row .content-2 {
+  color: black;
+}
+.slide #row .firstP {
+  color: black;
+}
+.slide .firstContent {
+  font-family: "Sacramento", cursive;
+}
+.slide .content-2 {
+  font-family: "Open Sans", sans-serif;
+}
+.slide .firstP {
+  text-align: start;
+  font-family: "Open Sans", sans-serif;
+}
+.slide .btn-danger {
+  font-family: "Open Sans", sans-serif;
+}
+
+#adopt img {
+  width: 400PX;
+}
+#adopt .adoptbtn {
+  padding: 5px 20px;
+  background-color: orangered;
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+
+#Waiting-Children {
+  background-color: cadetblue;
+  padding: 20px;
+}
+
+#featured {
+  padding: 100px;
+}
+#featured img {
+  width: 400px;
+}
+#featured img:hover {
+  opacity: 0.5;
+}
+
+#endSec {
+  padding: 100px;
+  background-color: red;
+}
+#endSec h4 {
+  color: white;
+}
+#endSec a {
+  text-decoration: none;
+  color: darkgoldenrod;
+  row-gap: 30px;
+}
+#endSec a:hover {
+  text-decoration: underline;
+  color: white;
+}
+#endSec p {
+  color: white;
+}
+#endSec #Icon a i {
+  color: darkgoldenrod;
+  border: 1px solid white;
+  border-radius: 100%;
+  padding: 10px;
+}
+#endSec #Icon a i:hover {
+  color: black;
+  background-color: white;
+}/*# sourceMappingURL=main.css.map */

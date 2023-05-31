@@ -1,0 +1,25 @@
+{
+  "Works": [
+    {
+      "id": 4,
+      "img": "./img/marketing.png",
+      "name": "ONLINE MARKETING",
+      "title": "Lorem ipsum dolor sit amet, consect et adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+      "price": "12348"
+    },
+    {
+      "id": 3,
+      "img": "./img/social-media.png",
+      "name": "DIGITAL MEDIA",
+      "title": "Lorem ipsum dolor sit amet, consect et adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+      "price": "12347"
+    },
+    {
+      "img": "./img/undefined",
+      "name": "ZXz",
+      "title": "title:ZXzX",
+      "price": "55",
+      "id": 5
+    }
+  ]
+}
